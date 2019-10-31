@@ -8,11 +8,11 @@ body{
 	color: white;
 	margin: 0;
 }
-/*
+
 *{
 	outline: dotted 1px red;
 }
-*/
+
 a{
 	text-decoration: none;
 }
@@ -41,6 +41,10 @@ nav li a:hover{
 }
 
 header{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
 	background-color: transparent;
 	overflow: auto;
 	padding: 1.5rem;	
@@ -123,7 +127,7 @@ header h1{
 	font-size: 6rem;
 	font-weight: bold;
 	letter-spacing: .2rem;
-	padding: 2rem auto;
+	padding: 3rem auto;
 	line-height: 130%;
 	text-align: left;
 }
@@ -139,49 +143,53 @@ header h1{
 	line-height: 130%;
 }
 
-#info h3{
-	text-transform: uppercase;
-	font-size: 2.5rem;
-	padding: 1.5rem;
-	text-align: left;
-}
 
-#valor{
-	text-align: center;
+h3{
 	font-size: 2rem;
-	display: inline;
-	margin: 5px;
-	font-weight: bold;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	padding: 1rem;
 }
 
-#num{
+.grid-container {
+  	display: grid;
+ 	grid-gap: 1rem;
+  	grid-template-columns: auto auto auto;
+  	color: black;
+  	padding: 1rem;
+  	font-size: 2rem;
+  	text-transform: uppercase;
+}
+
+.grid-item {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 1rem 2rem;
+  	text-align: center;
+  	background-color: #CCCACA;
+}
+
+.grid-item:hover{
+	color: white;
+	background-color: #A2CA56;
+}
+
+.sup{
+	font-size: 1.8rem;
+	text-transform: lowercase;
+	font-weight: normal;
+	padding: 1rem 2rem;
+	background-color: #f8f8f8;
+}
+
+.sup span{
 	font-size: 5rem;
 	font-weight: bold;
-	display: block;
-	color: #24261E;
-	background-color: #F8F8F8;
-	padding: .5rem;
-}
-
-#unidades{
-	display: block;
-	font-size: 2rem;
-	color: #24261E;
-	background-color: #F8F8F8;
-	padding: .5rem;
-}
-
-#definicion{
-	font-size: 1.2rem;
-	font-weight: bold;
-	text-transform: uppercase;
-	display: block;
-	color: #24261E;
-	background-color: #CCCACA;
-	padding: .5rem 2rem;
 }
 
 h4{
+	display: block;
 	font-weight: bold;
 	font-size: 3.5rem;
 	text-align: left;
@@ -190,9 +198,12 @@ h4{
 }
 
 #sub{
-	display: block;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
 	font-size: 1.2rem;
-	margin: 0;
+	margin-top: 2rem;
 	padding: 0;
 }
 
@@ -211,12 +222,17 @@ h4{
 }
 
 #galery{
-	color: #24261E;
-	display: inline-block;
-	background-color: #F8F8F8;
-	width: 19%;
+	width: 20%;
+	color: black;
+	background-color: white;
 	text-align: center;
-	vertical-align: bottom;
+}
+
+#imagenes{
+  	display: grid;
+ 	grid-gap: 1rem;
+  	padding: 1rem;
+  	grid-template-columns: auto auto auto;
 }
 
 #help{
@@ -233,21 +249,12 @@ h4{
 	line-height: 130%;
 }
 
-#imagen{
-	background-color: black;
-	width: 70px;
-	height: 70px;
-	display: inline-block;
-	margin: .5rem;
-}
-
-#num:hover{
-	color: white;
-	background-color: #A2CA56;
+#imagenes img{
+  	width: 70px;
 }
 
 footer{
 	display: block;
-	font-size: 2rem;
-	padding: 2rem;
+	font-size: 1rem;
+	padding: 1rem;
 }
