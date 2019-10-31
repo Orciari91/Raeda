@@ -1,0 +1,253 @@
+:root{
+	font-size: 62.5%;
+}
+
+body{
+	background-color: #24261E;
+	font-family: roboto, sans-serif;
+	color: white;
+	margin: 0;
+}
+/*
+*{
+	outline: dotted 1px red;
+}
+*/
+a{
+	text-decoration: none;
+}
+
+nav{
+	float: left;
+	font-size: 1.2rem;
+	margin: auto auto auto 3rem;
+}
+
+nav li{
+	display: inline-block;
+	text-align: center;
+	margin: .5rem;
+}
+
+nav li a{
+	display: block;
+	padding: .5rem;
+	color: white;
+	text-transform: uppercase;
+}
+
+nav li a:hover{
+	color: #CCCACA;
+}
+
+header{
+	background-color: transparent;
+	overflow: auto;
+	padding: 1.5rem;	
+}
+
+header h1{
+	float: left;
+	font-weight: bold;
+	padding-left: 7rem;
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-image: url("../img/favicon2.png");
+	background-repeat: no-repeat;	
+	background-size: contain;
+	font-family: "Krona One", helvetica, sans-serif;
+	font-size: 4rem;
+	text-transform: uppercase;
+	height: 50px;
+	letter-spacing: .5rem;
+}
+
+#redes{
+	width: 40px;
+	float: left;
+	display: inline-block;
+	padding: 1rem;
+	margin-top: 12rem;
+}
+
+#fb{
+	background-image: url("../icon/facebook-logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-bottom: 4rem;
+	display: block;
+	height: 24px;
+}
+
+#yt{
+	background-image: url("../icon/youtube-logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-bottom: 4rem;
+	display: block;
+	height: 24px;
+}
+
+#tw{
+	background-image: url("../icon/twitter-logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-bottom: 4rem;
+	display: block;
+	height: 24px;
+}
+
+#ig{
+	background-image: url("../icon/instagram-logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-bottom: 4rem;
+	display: block;
+	height: 24px;
+}
+
+#info{
+	font-size: 4rem;
+	display: inline-block;
+	margin-left: 1rem;
+	padding: .5rem;
+	width: 32%;
+	text-align: center;
+}
+
+#info h2{
+	font-size: 6rem;
+	font-weight: bold;
+	letter-spacing: .2rem;
+	padding: 2rem auto;
+	line-height: 130%;
+	text-align: left;
+}
+
+#info p{
+	font-size: 2rem;
+	padding: 1.5rem;
+	display: inline-block;
+}
+
+#info #texto{
+	text-align: left;
+	line-height: 130%;
+}
+
+#info h3{
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	padding: 1.5rem;
+	text-align: left;
+}
+
+#valor{
+	text-align: center;
+	font-size: 2rem;
+	display: inline;
+	margin: 5px;
+	font-weight: bold;
+}
+
+#num{
+	font-size: 5rem;
+	font-weight: bold;
+	display: block;
+	color: #24261E;
+	background-color: #F8F8F8;
+	padding: .5rem;
+}
+
+#unidades{
+	display: block;
+	font-size: 2rem;
+	color: #24261E;
+	background-color: #F8F8F8;
+	padding: .5rem;
+}
+
+#definicion{
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	color: #24261E;
+	background-color: #CCCACA;
+	padding: .5rem 2rem;
+}
+
+h4{
+	font-weight: bold;
+	font-size: 3.5rem;
+	text-align: left;
+	padding-left: 1rem;
+	margin: 2rem auto 1rem auto;
+}
+
+#sub{
+	display: block;
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 0;
+}
+
+#visit{
+	display: inline-block;
+	color: #24261E;
+	background-color: #CCCACA;
+	width: 50%;
+	vertical-align: bottom;
+}
+
+#visit p{
+	font-size: 1.5rem;
+	padding: 2rem 1rem 5rem 1rem;
+	line-height: 130%;
+}
+
+#galery{
+	color: #24261E;
+	display: inline-block;
+	background-color: #F8F8F8;
+	width: 19%;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+#help{
+	display: inline-block;
+	color: #F8F8F8;
+	background-color: #A2CA56;
+	width: 30%;
+	vertical-align: bottom;
+}
+
+#help p{
+	font-size: 1.5rem;
+	padding: 2rem 1rem 4rem 1rem;
+	line-height: 130%;
+}
+
+#imagen{
+	background-color: black;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	margin: .5rem;
+}
+
+#num:hover{
+	color: white;
+	background-color: #A2CA56;
+}
+
+footer{
+	display: block;
+	font-size: 2rem;
+	padding: 2rem;
+}
